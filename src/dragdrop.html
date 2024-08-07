@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop File Upload</title>
+    <style>
+        #drop-area {
+            border: 2px dashed #ccc;
+            border-radius: 20px;
+            width: 300px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 20px;
+            color: #ccc;
+            margin: 50px auto;
+        }
+
+        #progress-bar {
+            width: 0;
+            height: 20px;
+            background-color: green;
+            margin-top: 10px;
+        }
+
+        #progress-container {
+            width: 100%;
+            background-color: #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            display: none;
+        }
+
+        #message {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+    <script>var exports = {};</script>
+    <!-- Azure Storage SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@azure/storage-blob@latest"></script>
+</head>
+
+<body>
+    <div id="drop-area">Drop files here</div>
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+    <div id="message"></div>
+    <script src="upload.js"></script>
+</body>
+
+</html>
