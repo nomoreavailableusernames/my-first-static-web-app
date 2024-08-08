@@ -20,7 +20,6 @@ document.getElementById('drop-area').addEventListener('drop', async (event) => {
 });
 
 async function uploadFileToAzure(file) {
-    const AzureStorageBlob = require("@azure/storage-blob");
 
     const sasToken = 'exSbdrCgGDIT+KAp50HUC4lJxo/cP3nNqmXXDBN3MLUYP7O4O6cFDFFcKgxPkESEPa1zcx9QKMXA+AStctk5bg==';
     const containerName = 'b274bc31-6761-4c26-90a4-cdf21179bc6a-azureml-blobstore/UI/2024-08-05_181707_UTC';
