@@ -5,6 +5,7 @@
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
   },
   "dependencies": {
+    "@azure/arm-azurestack": "^2.1.1",
     "@azure/storage-blob": "^12.24.0"
   }
 }
