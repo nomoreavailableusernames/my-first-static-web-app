@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "https://lively-pebble-06d82690f.5.azurestaticapps.net/dragdrop.html",
+            "request": "launch",
+            "url": "https://lively-pebble-06d82690f.5.azurestaticapps.net/dragdrop.html"
+        }
+    ]
+}
